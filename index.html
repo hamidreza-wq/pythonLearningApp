@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f7f8fc">
+    <meta name="description" content="Learn Python from your first program to real projects with a free, interactive coding academy.">
+    <title>Python Path Academy — learn by making</title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="module" src="/app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <a class="brand" href="/" aria-label="Python Path home">
+          <span class="brand-mark">Py</span>
+          <span>python<span class="brand-light">path</span></span>
+        </a>
+        <div class="course-label">YOUR WORKSPACE</div>
+        <nav id="lesson-nav" class="lesson-nav" aria-label="Main navigation">
+          <button class="nav-item active" type="button" data-route="dashboard"><span class="nav-number">⌂</span><span>Dashboard</span></button>
+          <button class="nav-item" type="button" data-route="paths"><span class="nav-number">◇</span><span>Learning paths</span></button>
+          <button class="nav-item" type="button" data-route="practice"><span class="nav-number">✳</span><span>Practice</span></button>
+          <button class="nav-item" type="button" data-route="playground"><span class="nav-number">⌘</span><span>Playground</span></button>
+          <button class="nav-item" type="button" data-route="exams"><span class="nav-number">✓</span><span>Exams &amp; quizzes</span></button>
+          <button class="nav-item" type="button" data-route="projects"><span class="nav-number">▣</span><span>Projects</span></button>
+          <button class="nav-item" type="button" data-route="reference"><span class="nav-number">⌕</span><span>Reference library</span></button>
+          <button class="nav-item" type="button" data-route="notes"><span class="nav-number">▤</span><span>Notes &amp; snippets</span></button>
+          <button class="nav-item" type="button" data-route="help"><span class="nav-number">?</span><span>Learning helper</span></button>
+          <button class="nav-item" type="button" data-route="settings"><span class="nav-number">⚙</span><span>Settings &amp; data</span></button>
+        </nav>
+        <div class="sidebar-note">
+          <span class="note-icon" aria-hidden="true">✦</span>
+          <p>Small steps. Real skills. Your own pace.</p>
+        </div>
+        <div class="profile">
+          <div class="avatar" aria-hidden="true">L</div>
+          <div><strong id="profile-name">Guest learner</strong><span id="profile-label">Learning locally</span></div>
+          <span class="profile-dot" aria-hidden="true"></span>
+        </div>
+      </aside>
+
+      <main class="main-area">
+        <header class="topbar">
+          <div class="breadcrumb">Python Path <span>/</span> <strong id="breadcrumb-title">Dashboard</strong></div>
+          <div class="topbar-right">
+            <button id="theme-toggle" class="text-button" type="button" aria-label="Switch colour theme">Dark theme</button>
+            <span class="streak"><span aria-hidden="true">✦</span> <span id="completion-count">0 lessons · 0 XP</span></span>
+          </div>
+        </header>
+
+        <div id="notice" class="notice" role="status" hidden></div>
+        <div id="view" class="content"></div>
+      </main>
+    </div>
+  </body>
+</html>
