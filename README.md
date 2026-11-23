@@ -48,3 +48,7 @@ Original source and educational materials in this repository are available under
 ## Current scope
 
 This is a runnable local learning academy, not the full multi-user production service described by the broad product brief. It does not yet include PostgreSQL/Django, registered accounts, cross-device sync, cloud administration/content management, a privileged hidden-test service, packaged CodeMirror/Monaco syntax highlighting or autocomplete, a production sandbox, or automated accessibility/performance certification. Do not deploy this static local app as a public service that claims those capabilities.
+
+## Portfolio
+
+Read more about this project on [Hamid Reza Bayat's portfolio](https://hamidbayat.co.uk/projects/python-path-academy).
